@@ -10,21 +10,26 @@ body {
 }
 h1 {
     font-family: "Quicksand", Sans-serif; font-size: 60px;
+    color: #2E333D;
 }
 h2 {
 font-family: "Quicksand", Sans-serif;font-size: 36px;
 font-weight: bold;
+color: #2E333D;
 
 }
 h3{
 font-family: "Quicksand", Sans-serif;font-size: 36px;
 font-weight: bold;
+color: #2E333D;
 }
 h4 {font-family: "Quicksand", Sans-serif;font-size: 24px;
 font-weight: bold;
+color: #2E333D;
 }
 h5 {font-family: "Quicksand", Sans-serif;font-size: 20px;
 font-weight: normal;
+color: #2E333D;
 }
 .inline-block {
     display: inline-block;
@@ -32,9 +37,13 @@ font-weight: normal;
     align-items: center;
     justify-content: center;
     font-family: "Quicksand", Sans-serif;font-size: 24px;
+    color: #2E333D;
 }
-.inline-block p {
-    font-family: "Quicksand", Sans-serif;font-size: 16px; 
+p {
+    font-family: "Quicksand", Sans-serif;font-size: 16px;
+    padding-right: 20px;
+    color: #2E333D;
+    
 }
 .navigation img {
     display: inline-block;
@@ -63,12 +72,16 @@ font-weight: normal;
     width: fit-content;
     
 }
+li.inline-block
+{
+    padding-right: 50px;
+}
 .content img{
-    height: 479px;
-    width: 415;
+    width:25%;
     padding:25px;
     float: right;
     display: inline;
+    vertical-align: top;
     
 }
 .content {
@@ -80,23 +93,27 @@ font-weight: normal;
     
 }
 .footer img {
-    width: 10%;
+    width: 5%;
     padding: 1%;
     display: inline-block;
     vertical-align: bottom;
     align-items: flex-start;
     vertical-align: text-bottom;
-    
-
+    flex-wrap: wrap;
 }
+
+
 
 body {background: linear-gradient(to bottom, #DEEEFF 0%, #FFECDB 100%);
 font-family: "Quicksand", Sans-serif;}
 
-.footer
+.footer.footer
 {
-    padding: 10px;
+    padding: 30px;
     display: inline-flex;
+    vertical-align: middle;
+    justify-content: space-around;
+
     
 }
 .main {
@@ -189,7 +206,7 @@ font-family: "Quicksand", Sans-serif;}
     border-radius: 5px;
     
 }
-.My_Work button {
+section button {
     background-color: #FFECDB;
     border: #FFECDB;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -199,34 +216,91 @@ font-family: "Quicksand", Sans-serif;}
     text-align: center;
     padding: 0px;
     border-radius: 5px;
+   margin-bottom: 100px;
 }
- .Creaven img{
-    width: 192px;
-    height: 413;
-    float: right;
-    justify-content: space-evenly;
-    border-radius: 12px;
+ .My_Work img{
+    width: 50%;
+    align-items: left;
+    text-align: left;
+
+   }
+ .Creaven {
+    width: fit-content;
+    margin: auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: left;
+    
  }
- .Creaven image-container { 
-    position: relative; 
-    display: inline-block; 
-  } 
-   
-  .Creaven img { 
-    display: block; 
-    max-width: 100%; 
-    height: auto; 
-  } 
-   
-  .image-container:before { 
-     
-    top: 10px; 
-    left: 10px; 
-    width: 200px; 
-    height: 100px; 
-    background-color:linear-gradient(to bottom, #ECFFF5 0%, #ECFFF5 100%); 
+
+ .Creaven img
+ {
+    padding-bottom: 50px;
+    width: 70%;
+    float: right;
+    
+ }
+ .Creaven button {
+    align-content: center;
+ }
+.Unicef img {
+    padding-bottom: 50px;
+    width: 50%;
+    float: left;
+    padding-right: 50px;
+    
+}
+.Unicef-logo{
+    width: fit-content;
+    margin: auto;
+    display: inline-block;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+.Unicef-logo img {
+
+    width:70%;
+    float: center;
+    padding-right: 50%;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    
+ 
+   }
+
+.DOL-logo img {
+    width:70%;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    }
+.DOL {
+    width: fit-content;
+    margin: auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.Tools {
+    width: fit-content;
+    margin: auto;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center; 
+}
+.Tools-icons img {
+    width:70%;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
     
 
-    
-  } 
- 
+}
+
