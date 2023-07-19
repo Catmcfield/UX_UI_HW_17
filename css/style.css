@@ -62,7 +62,6 @@ p {
     width: 50%;
     margin-left: auto;
     padding: 10px;
-    justify-content: space-between;
     font-family: "quicksand, sans serif"; 
     align-items: flex-start;
     border-radius: 12px;
@@ -75,6 +74,8 @@ p {
 li.inline-block
 {
     padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 12px;
 }
 .content img{
     width:25%;
@@ -110,8 +111,9 @@ font-family: "Quicksand", Sans-serif;}
 {
     padding: 30px;
     display: inline-flex;
-    vertical-align: middle;
+    vertical-align: bottom;
     justify-content: space-around;
+    padding-top: 50px;
 
     
 }
@@ -215,7 +217,60 @@ section button {
     text-align: center;
     padding: 0px;
     border-radius: 5px;
-   margin-bottom: 100px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+section button:hover {
+    background-color: #ECFFF5;
+    border: #ECFFF5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+section button:active {
+    background-color: #DEEBFF;
+    border: #DEEBFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+.content button:hover {
+    background-color: #ECFFF5;
+    border: #ECFFF5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+.content button:active {
+    background-color: #DEEBFF;
+    border: #DEEBFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
 }
  .My_Work img{
     width: 50%;
@@ -292,14 +347,23 @@ section button {
     justify-content: center; 
 }
 .Tools-icons img {
-    width:70%;
+    width:50%;
     padding-right: 50px;
-    padding-bottom: 0px;
-    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-left: 275px;
     padding-top: 20px;
     text-align: center;
     margin: auto;
     
 
 }
+ul .inline-block:hover{
+    text-decoration: underline;
+}
+
+ul .inline-block:active{
+    text-decoration: underline;
+    background-color: #ECFFF5;
+}
+
 
